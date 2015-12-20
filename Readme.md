@@ -1,10 +1,10 @@
 # Schau genau!
-Eyetracking game developed by Raphael Menges and Kevin Schmidt as part of their employement for the  [Institute for Web Science and Technologies](http://west.uni-koblenz.de/) at University Koblenz-Landau. It was developed for the [State Horticultural Show Landau 2015](http://lgs-landau.de/) as arcarde box game, using only gaze and one buzzer as input. Nearly 3000 sessions were played during summer without any known issues. Powered by Java and jMonkey engine.
+Eyetracking game developed by Raphael Menges and Kevin Schmidt as part of their employement for the  [Institute for Web Science and Technologies](http://west.uni-koblenz.de/) at University Koblenz-Landau. It was designed for the [State Horticultural Show Landau 2015](http://lgs-landau.de/) as arcarde box game, using only gaze and one buzzer as input. Nearly 3000 sessions were played during summer without any known issues. Powered by Java and jMonkey engine.
 
 For the scientific background, please take a look at the [paper from EyePlay workshop](/media/schaefer_etal_schaugenau.pdf).
 
 ## History
-This project was started as part of their studies in "Projektpraktikum" during summer semester 2013 supervised by Dr. Tina Walber. Other students involved were Heiko Bengel, Matthias Kuich and Marc Wilhelmy, but none of their source code is used in current version.
+This project was started as part of their studies in "Projektpraktikum" during summer semester 2013, supervised by Dr. Tina Walber. Other students involved were Heiko Bengel, Matthias Kuich and Marc Wilhelmy, but none of their source code is contained in current version.
 
 ## Presentations
 * Nacht der Technik 2013 at HWK in Koblenz
@@ -24,14 +24,14 @@ This project was started as part of their studies in "Projektpraktikum" during s
 For a video of the beta version, hosted on YouTube, click [here](https://youtu.be/eEWfZ5EqSLE).
 
 ## Launch
-Run main function in "schaugenau.app" in Eclipse. Due too license issues, neither the connectin to our image database nor the connection to an eyetracker is integrated. All important code lines are marked with a "TODO" comment. The game itself should work out of the box with mouse support, which emulates the gaze. During gameplay, errors about no connection to an image database are thrown and placeholders are used instead.
+Run main function in "schaugenau.app" in Eclipse. Due too license issues, neither the connection to our image database nor the usage of an eyetracker is integrated. All regarding lines in code are marked with a "TODO" comment. The game itself should work out of the box with mouse support, that emulates the gaze. During gameplay, errors about no connection to an image database are thrown and placeholders are used instead.
 
 ## Dependencies
-* jMonkey: http://jmonkeyengine.org/
-* log4j: http://logging.apache.org/log4j/2.x/
-* LWJGL: https://www.lwjgl.org/
-* OpenAL: https://www.openal.org/
-* opencsv: http://opencsv.sourceforge.net/
+* jMonkey: http://jmonkeyengine.org
+* log4j: http://logging.apache.org/log4j/2.x
+* LWJGL: https://www.lwjgl.org
+* OpenAL: https://www.openal.org
+* opencsv: http://opencsv.sourceforge.net
 
 All necessary dependencies are included in this repository.
 
