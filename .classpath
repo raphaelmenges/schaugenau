@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="assets"/>
+	<classpathentry kind="src" path="locale"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/jMonkey/j-ogg-oggd.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/j-ogg-vorbisd.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/jME3-core.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/jME3-desktop.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/jME3-effects.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/jME3-jogg.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/jME3-lwjgl.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/joal.jar"/>
+	<classpathentry kind="lib" path="lib/log4j/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib/opencsv/opencsv-2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jMonkey/lwjgl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

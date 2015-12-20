@@ -1,0 +1,72 @@
+MaterialDef LongFaded {
+
+    MaterialParameters {
+        Texture2D ColorMap
+        Texture2D LightMap
+        Color Color (Color)
+        Boolean VertexColor (UseVertexColor)
+        Boolean SeparateTexCoord
+
+        // Texture of the glowing parts of the material
+        Texture2D GlowMap
+        // The glow color of the object
+        Color GlowColor
+
+        // For hardware skinning
+        Int NumberOfBones
+        Matrix4Array BoneMatrices
+
+        // Alpha threshold for fragment discarding
+        Float AlphaDiscardThreshold (AlphaTestFallOff)
+        Boolean DiscardAlpha
+        
+        //Shadows
+        Int FilterMode
+        Boolean HardwareShadows
+
+        Texture2D ShadowMap0
+        Texture2D ShadowMap1
+        Texture2D ShadowMap2
+        Texture2D ShadowMap3
+        //pointLights
+        Texture2D ShadowMap4
+        Texture2D ShadowMap5
+        
+        Float ShadowIntensity
+        Vector4 Splits
+        Vector2 FadeInfo
+
+        Matrix4 LightViewProjectionMatrix0
+        Matrix4 LightViewProjectionMatrix1
+        Matrix4 LightViewProjectionMatrix2
+        Matrix4 LightViewProjectionMatrix3
+        //pointLight
+        Matrix4 LightViewProjectionMatrix4
+        Matrix4 LightViewProjectionMatrix5
+        Vector3 LightPos
+
+        Float PCFEdge
+
+        Float ShadowMapSize
+    }
+
+    Technique {
+        VertexShader GLSL100:	Materials/LongFaded.vert
+        FragmentShader GLSL100: Materials/LongFaded.frag
+
+        WorldParameters {
+            WorldViewProjectionMatrix
+			WorldMatrix
+        }
+
+        Defines {
+            SEPARATE_TEXCOORD : SeparateTexCoord
+            HAS_COLORMAP : ColorMap
+            HAS_LIGHTMAP : LightMap
+            HAS_VERTEXCOLOR : VertexColor
+            HAS_COLOR : Color
+            NUM_BONES : NumberOfBones
+            DISCARD_ALPHA : DiscardAlpha
+        }
+    }
+}
