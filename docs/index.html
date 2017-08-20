@@ -1,7 +1,753 @@
-<html>
-<head>
-</head>
-<body>
-	Hello world!
-</body>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Schau genau!</title>
+
+        <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/schaugenau.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    </head>
+
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+					
+                    <a class="navbar-brand" href="#page-top"><img class="img-responsive" src="img/logo.gif" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#portfolio">Bilder</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">Über uns</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+				<div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Das Eyetracking Spiel</h2>
+                        <hr class="schaugenaudark">
+                    </div>
+                </div>
+				<div class="row">
+                    <div class="col-lg-12">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<span href="#" class="btn btn-lg btn-outline">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/WOcb94t6BaQ?rel=0" frameborder="0" allowfullscreen></iframe>
+                			</span>
+						</div>
+                    </div>
+                </div>
+				<div class="row">
+                    <div class="col-lg-12">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<h3>Beta Gameplay</h3>
+							<span href="#" class="btn btn-lg btn-outline">
+								<video width="427" height="240" controls poster="video/poster2.JPG">
+									<source src="video/SchauGenauTrailer.mp4" type="video/mp4">
+									<source src="video/SchauGenauTrailer.ogv" type="video/ogg">
+									Your browser does not support the video tag.
+								</video> </span>
+						</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+							<h3>Alpha Gameplay</h3>
+                            <span href="#" class="btn btn-lg btn-outline">
+                                <video width="427" height="240" controls muted poster="video/poster1.JPG">
+                                    <source src="video/SchauGenauGamescom2014.mp4" type="video/mp4">
+                                    <source src="video/SchauGenauGamescom2014.ogv" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                </video> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Portfolio Grid Section -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Bilder</h2>
+                        <hr class="schaugenaudark">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModalNdt" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/20141108_152439.jpg" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModalToronto" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/TorontoEyePlay.jpg" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModalPaper" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/EyePlay2015PaperCover.jpg" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/1.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/6.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/3.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/4.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/5.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/2.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/SchauGenauGamescom.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/PictureMode.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div> <img src="img/portfolio/Box.JPG" class="img-responsive" alt=""> </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="success" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Über uns</h2>
+                        <hr class="schaugenau">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-2 text-justify">
+                        <p>
+                            Steuer den Schmetterling Faltasar mit deinem Blick! Sammle bunte Blumen ein und lerne die Namen vieler Arten kennen. Dieses Eyetracking basierte Spiel ging aus einem von Dr. Tina Walber betreuten Projektpraktikum im Sommersemester 2013 des Institute for Web Science and Technologies (WeST) hervor.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-justify">
+                        <p>
+                            Es wird nun von zwei studentischen Hilfskräften weitergeführt. Großes Ziel ist die Landesgartenschau 2015 in Landau, für welche eine spezielle Arcade-Box entwickelt wird. Verantwortlich sind Christoph Schaefer (WeST), Kevin Schmidt und Raphael Menges.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-4">
+                            <h3>Über WeST</h3>
+                            <p>
+                                <a href="http://west.uni-koblenz.de/">Institute for Web Science and Technologies</a>
+                                <br/>
+                                Universität Koblenz-Landau
+                                <br/>
+                                Universitätsstraße 1
+                                <br/>
+                                56070 Koblenz
+                            </p>
+                        </div>
+                       <div class="footer-col col-md-4">
+                            <h3>Unterstützer</h3>
+                            <p>
+                                Tina Walber und 
+                                <br/>
+                                Christoph Schaefer
+                                <br/>
+                                <a href="http://eyevido.de">EYEVIDO - Crowd Eyetracking</a>
+                                <br/>
+                                Universitätsstraße 3
+                                <br/>
+                                56070 Koblenz
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="footer-below">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            Copyright &copy; Schau genau! 2015
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top page-scroll visible-xs visble-sm">
+            <a class="btn btn-primary" href="#page-top"> <i class="fa fa-chevron-up"></i> </a>
+        </div>
+
+        <!-- Portfolio Modals -->
+        <div class="portfolio-modal modal fade" id="portfolioModalNdt" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Nacht der Technik 2014</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/20141108_152439.jpg" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Raphael und Kevin präsentieren Schau genau! auf der 9. Nacht der Technik, am 8. November 2014 der HWK Koblenz.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>08.11.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Kevin Schmidt </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModalToronto" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>EyePlay Workshop 2014</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/TorontoEyePlay.jpg" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Christoph Schaefer präsentiert Schau genau! beim EyePlay Workshop in Toronto: Schau genau! - an Eye Tracking Game With a Purpose. 1st. Workshop on the Applications for Gaze in Games at CHI Play 2014
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>19.10.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModalPaper" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>EyePlay Workshop 2014 Paper</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/EyePlay2015PaperCover.jpg" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Wir haben ein Paper über Schau genau! geschrieben: Christoph Schaefer, Matthias Kuich, Raphael Menges, Kevin Schmidt, Tina Walber (2014): Schau genau! - an Eye Tracking Game With a Purpose. 1st. Workshop on the Applications for Gaze in Games at CHI Play 2014. <a style="color:black" href="https://github.com/raphaelmenges/schaugenau/blob/master/media/schaefer_etal_schaugenau.pdf">Paper als PDF laden.</a>
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>19.10.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Präsentation auf dem CV-Tag 2014</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/1.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Raphael und Kevin präsentieren den ersten Prototype auf dem <a href="http://userpages.uni-koblenz.de/~cvtag/web/">CV-Tag 2014</a>.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Erster "Schau genau!" Prototyp</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/6.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Erster "Schau genau!" Prototyp im Eyetracking Labor der Uni-Koblenz (Raum B303).
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Präsentation auf dem CV-Tag 2014</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/3.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Raphael und Kevin präsentieren den ersten Prototype auf dem <a href="http://userpages.uni-koblenz.de/~cvtag/web/">CV-Tag 2014</a>.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Spielszene</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/4.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Spielszene: Der Benutzer muss entscheiden, welche Blume der Beschreibung entspricht.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Spielszene</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/5.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Spielszene: Zu Beginn des Spiels winkt der Schmetterling, der mit den Augen gesteuert wird, dem Spieler zu.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Spielszene</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/2.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Spielszene: Der mit den Augen des Spielers gesteuerte Schmetterling sammelt Blumen ein.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Präsentation auf der gamescom 2014</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/SchauGenauGamescom.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Schau genau! wird bei der Kölner gamescom auf dem Stand der Computervisualistik präsentiert. <a href="http://www.gamescom.de/de/gamescom/home/index.php">http://www.gamescom.de</a>.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>15.08.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Raphael Menges </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Erster "Schau genau!" Prototyp</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/PictureMode.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    "Schau genau!" im Blumenmodus. Hier muss der Spieler zwischen zwei Blumen die richtige auswählen.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Foto: <strong>Christoph Schaefer </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Erster Entwurf der Arcade-Box</h2>
+                                <hr class="schaugenaudark">
+                                <img src="img/portfolio/Box.JPG" class="img-responsive img-centered" alt="">
+                                <p>
+                                    Ungefähr so soll später die Arcade-Box auf der Landesgartenschau in Landau aussehen.
+                                </p>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        Schau genau! <strong>Eyetracking Spiel </strong>
+                                    </li>
+                                    <li>
+                                        Datum: <strong>11.07.2014 </strong>
+                                    </li>
+                                    <li>
+                                        Entwurf: <strong>Raphael Menges </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Schließen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap Core JavaScript -->
+		<script src="js/jquery-1.11.0.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/schaugenau.js"></script>
+      
+    </body>
+
 </html>
