@@ -1,7 +1,7 @@
 # Schau genau!
 Eye tracking game developed by Raphael Menges and Kevin Schmidt as part of their employement for the  [Institute for Web Science and Technologies](http://west.uni-koblenz.de/) at University Koblenz-Landau. It was designed for the [State Horticultural Show Landau 2015](http://lgs-landau.de/) as arcarde box game, using only gaze and one buzzer as input. Nearly 3000 sessions were played during the summer without any known issues. Powered by Java and jMonkey engine.
 
-For the scientific background, please take a look at the [paper from EyePlay workshop](/media/schaefer_etal_schaugenau.pdf).
+For the scientific background, please take a look at the [paper from EyePlay workshop](/media/schaefer_etal_schaugenau.pdf) or the [paper from COGAIN Symposium 2017](/media/menges_etal_schaugenau.pdf).
 
 ## History
 This project was started by computer science students as part of their studies in "Projektpraktikum" (research lab) during summer semester 2013, supervised by Dr. Tina Walber. Main developers were Raphael Menges and Kevin Schmidt. Other students involved were Heiko Bengel, Matthias Kuich and Marc Wilhelmy, but none of their source code is contained in current version.
@@ -12,6 +12,7 @@ This project was started by computer science students as part of their studies i
 * [CV-Tag 2014](http://userpages.uni-koblenz.de/~cvtag/web/demos/demos-2014/)
 * [EyePlay workshop in Toronto](http://www.eyeplayworkshop.org/)
 * State Horticultural Show Landau 2015
+* [COGAIN Symposium 2017](http://cogain2017.cogain.org)
 
 ## Screenshots
 ![Screenshot-A](/media/Screenshot-A.png "Idle screen")
@@ -21,7 +22,7 @@ This project was started by computer science students as part of their studies i
 ![Screenshot-E](/media/Screenshot-E.png "Name input")
 
 ## Video
-For a video of the beta version, hosted on YouTube, click [here](https://youtu.be/eEWfZ5EqSLE).
+For a video of the beta version, hosted on YouTube, click [here](https://youtu.be/eEWfZ5EqSLE). Another video has been created for the COGAIN Symposium 2017 paper, click [here](https://youtu.be/WOcb94t6BaQ).
 
 ## Launch
 Run main function in "schaugenau.app" in Eclipse. Due to license issues, neither the connection to our image database nor the usage of an eyetracker is integrated. All regarding lines in code are marked with a "TODO" comment. The game itself should work out of the box with mouse support, which emulates the gaze. During gameplay, errors about no connection to an image database are thrown and placeholders are used instead.
